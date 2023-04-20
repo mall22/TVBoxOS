@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://52bsj.vip:81/api/v3/file/get/129632/h3_XC.json?sign=h6s3sAadHvyu6T_0TbV3q9B2OXNBxb9N0ofdQysrzCc%3D%3A0");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://52bsj.vip:81/api/v3/file/get/129631/h_XC.json?sign=D2b-bm36UQBmjaVlbAwiXgrIW4fKAi_qhqJ00MpSnO8%3D%3A0");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
